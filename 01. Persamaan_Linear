@@ -1,0 +1,28 @@
+# ALGORITMA PENYELESAIAN SISTEM PERSAMAAN LINEAR TIGA VARIABEL (SPLTV)
+
+**Mata Kuliah:** Komputasi Numerik
+
+## 1. Pengertian
+Sistem Persamaan Linear Tiga Variabel (SPLTV) adalah sistem persamaan yang memiliki tiga variabel, yaitu x, y, dan z. Tujuannya adalah mencari nilai dari ketiga variabel tersebut sehingga semua persamaan terpenuhi.
+
+## 2. Contoh Persamaan
+
+2x + y + z = 10
+
+x + 2y + z = 11
+
+x + y + 2z = 12
+
+## 3. Langkah-Langkah Algoritma
+
+1. Mulai.
+2. Masukkan koefisien dari ketiga persamaan.
+3. Bentuk matriks koefisien dan matriks hasil.
+4. Periksa apakah matriks dapat diselesaikan.
+5. Hitung nilai variabel x, y, dan z menggunakan metode penyelesaian sistem persamaan linear.
+6. Tampilkan hasil perhitungan.
+7. Selesai.
+
+## 4. Kesimpulan
+
+Algoritma ini digunakan untuk menentukan nilai tiga variabel dalam Sistem Persamaan Linear Tiga Variabel. Penyelesaian dilakukan menggunakan perhitungan matriks sehingga diperoleh nilai x, y, dan z.
