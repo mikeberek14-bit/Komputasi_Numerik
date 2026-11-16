@@ -1,0 +1,80 @@
+# PENJELASAN KODE PROGRAM SPLTV
+
+**Mata Kuliah:** Komputasi Numerik
+
+**Materi:** Sistem Persamaan Linear Tiga Variabel (SPLTV)
+
+**Bahasa Pemrograman:** Python
+
+**Aplikasi:** Google Colab
+
+## 1. Penjelasan Cell 1 – Program Utama SPLTV
+
+Cell pertama digunakan untuk membuat program utama penyelesaian Sistem Persamaan Linear Tiga Variabel.
+
+- `import numpy as np`: Mengimpor library NumPy untuk membantu proses perhitungan matematika.
+- `A = np.array([...])`: Membuat matriks koefisien dari tiga persamaan.
+- `B = np.array([10, 11, 12])`: Membuat matriks hasil persamaan.
+- `np.linalg.solve(A, B)`: Menghitung nilai variabel X, Y, dan Z.
+- `print()`: Menampilkan hasil perhitungan.
+- `hasil[0]`, `hasil[1]`, dan `hasil[2]`: Mengambil nilai X, Y, dan Z.
+
+## 2. Penjelasan Cell 2 – Memeriksa Kebenaran Hasil
+
+Cell kedua digunakan untuk memeriksa apakah hasil perhitungan sudah sesuai dengan ketiga persamaan.
+
+- `np.dot(A, hasil)`: Mengalikan matriks koefisien dengan hasil perhitungan.
+- `hasil_cek`: Menyimpan hasil pemeriksaan.
+- `print()`: Menampilkan hasil pemeriksaan.
+- `np.allclose(hasil_cek, B)`: Memeriksa apakah hasil perhitungan sesuai dengan matriks hasil.
+- `if`: Menjalankan perintah jika kondisi benar.
+- `else`: Menjalankan perintah jika kondisi salah.
+
+## 3. Penjelasan Cell 3 – Menghitung Determinan Matriks
+
+Cell ketiga digunakan untuk menghitung determinan matriks dan mengetahui apakah sistem memiliki solusi tunggal.
+
+- `np.linalg.det(A)`: Menghitung determinan matriks A.
+- `determinan`: Menyimpan hasil determinan.
+- `abs(determinan)`: Mengambil nilai absolut determinan.
+- `1e-10`: Nilai toleransi untuk memeriksa apakah determinan mendekati nol.
+- `if`: Memeriksa apakah determinan tidak mendekati nol.
+- `else`: Menampilkan kondisi jika determinan mendekati nol.
+
+## 4. Penjelasan Cell 4 – Menampilkan Hasil dalam Bentuk Tabel
+
+Cell keempat digunakan untuk menampilkan hasil perhitungan agar lebih rapi dan mudah dibaca.
+
+- `print()`: Menampilkan tulisan pada layar.
+- `format()`: Mengatur tampilan data.
+- `"{:<15}"`: Mengatur teks rata kiri dengan lebar 15 karakter.
+- `"{:<15.2f}"`: Menampilkan angka dengan dua angka di belakang koma.
+- `hasil[0]`: Menampilkan nilai X.
+- `hasil[1]`: Menampilkan nilai Y.
+- `hasil[2]`: Menampilkan nilai Z.
+
+## 5. Penjelasan Cell 5 – Kesimpulan Akhir Program
+
+Cell kelima digunakan untuk menampilkan kesimpulan dari seluruh proses perhitungan SPLTV.
+
+- `round(hasil[0], 2)`: Membulatkan nilai X menjadi dua angka di belakang koma.
+- `round(hasil[1], 2)`: Membulatkan nilai Y menjadi dua angka di belakang koma.
+- `round(hasil[2], 2)`: Membulatkan nilai Z menjadi dua angka di belakang koma.
+- `np.dot(A, hasil)`: Memeriksa kembali hasil perkalian matriks.
+- `np.allclose()`: Memeriksa kesesuaian hasil perhitungan.
+- `if`: Memeriksa apakah hasil perhitungan benar.
+- `else`: Menampilkan kesimpulan jika kondisi tidak terpenuhi.
+
+## 6. Kesimpulan
+
+Berdasarkan program yang telah dibuat, penyelesaian Sistem Persamaan Linear Tiga Variabel menggunakan bahasa pemrograman Python dan library NumPy berhasil dilakukan.
+
+Hasil perhitungan dari ketiga persamaan adalah:
+
+- X = 1,75
+- Y = 2,75
+- Z = 3,75
+
+Hasil tersebut telah diperiksa kembali dan sesuai dengan ketiga persamaan yang digunakan.
+
+Dengan demikian, program dapat digunakan untuk menyelesaikan Sistem Persamaan Linear Tiga Variabel menggunakan metode perhitungan matriks.
