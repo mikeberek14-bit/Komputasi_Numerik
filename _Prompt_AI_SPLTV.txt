@@ -1,0 +1,43 @@
+# DOKUMENTASI PROMPT AI – SPLTV
+
+**Mata Kuliah:** Komputasi Numerik
+
+**Materi:** Sistem Persamaan Linear Tiga Variabel (SPLTV)
+
+**AI yang digunakan:** ChatGPT
+
+## Prompt 1 – Membuat Algoritma SPLTV
+
+Saya sedang mengerjakan tugas mata kuliah Komputasi Numerik. Tolong buatkan algoritma penyelesaian Sistem Persamaan Linear Tiga Variabel (SPLTV) menggunakan bahasa yang sederhana dan mudah dipahami oleh pemula.
+
+## Prompt 2 – Membuat Program Python SPLTV
+
+Buatkan program Python untuk menyelesaikan Sistem Persamaan Linear Tiga Variabel menggunakan library NumPy dan metode matriks. Gunakan contoh tiga persamaan dengan variabel X, Y, dan Z.
+
+## Prompt 3 – Memeriksa Kebenaran Hasil
+
+Buatkan kode Python untuk memeriksa apakah hasil perhitungan SPLTV sudah sesuai dengan ketiga persamaan yang diberikan. Jelaskan fungsi kode tersebut.
+
+## Prompt 4 – Menghitung Determinan Matriks
+
+Buatkan kode Python untuk menghitung determinan matriks koefisien SPLTV menggunakan NumPy. Jelaskan bagaimana determinan digunakan untuk mengetahui apakah sistem memiliki solusi tunggal.
+
+## Prompt 5 – Menampilkan Hasil Perhitungan
+
+Buatkan kode Python untuk menampilkan hasil penyelesaian SPLTV dalam bentuk tabel yang rapi dan mudah dibaca.
+
+## Prompt 6 – Membuat Kesimpulan Program
+
+Buatkan kode Python untuk menampilkan kesimpulan akhir dari program SPLTV berdasarkan hasil perhitungan dan pemeriksaan kebenaran solusi.
+
+## Prompt 7 – Menjelaskan Setiap Kode Python
+
+Jelaskan fungsi setiap bagian kode Python program SPLTV dari Cell 1 sampai Cell 5 menggunakan bahasa Indonesia yang sederhana agar mudah dipahami oleh mahasiswa pemula.
+
+## Prompt 8 – Memeriksa Program
+
+Bantu periksa apakah program Python SPLTV yang telah dibuat sudah benar. Jelaskan apabila terdapat kesalahan dan berikan perbaikan jika diperlukan.
+
+## Kesimpulan
+
+Penggunaan AI membantu saya memahami algoritma, membuat program Python, memeriksa hasil perhitungan, dan menjelaskan fungsi setiap kode dalam penyelesaian Sistem Persamaan Linear Tiga Variabel.
